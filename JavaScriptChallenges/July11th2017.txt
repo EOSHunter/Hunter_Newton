@@ -1,0 +1,31 @@
+1. for (var i = 1; i <= 10; i ++) {
+      console.log(i);
+}
+
+2. var firstName = 'Hunter';
+var lastName = 'Newton';
+
+function printName(){
+  console.log('Hello there! ' + 'My name is ' + firstName + ' ' + lastName + '.');
+}
+
+printName();
+
+3.  var firstName = 'Hunter';
+
+function printName(){
+  for (var i = 0; i < 4; i++)
+  console.log(firstName);
+}
+
+printName();
+
+4. var names = ['Maggie', 'Tabitha', 'Malik', 'Hunter']
+for(var i = 0; i <= names.length; i++){
+console.log(names[i]);
+}
+
+5. for(var i = 10; i > 0; i--){
+console.log(i);
+}
+
