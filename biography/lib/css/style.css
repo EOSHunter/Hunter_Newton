@@ -1,183 +1,201 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
 }
 
-.logo {
-    float: left;
-    padding-left: 25px;
-    padding-bottom: 25px;
-    margin: 0 0 15px 0;
-    width: 268px;
-    height: 27px;
+.introduction {
+  margin-left: 2.8%;
+  margin-right: 2.8%;
 }
 
-.logo > a {
-    text-decoration: none;
-    color: #000;
+.title {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 1.5%;
 }
 
-.banner {
-    width: 100%;
-    display: block;
+.subtitle {
+  text-align: center;
+  padding-top: 3%;
 }
 
-.banner > .banner-image {
-    width: 100%;
-    display: block;
-}
-
-a {
-    color: #676767;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #799fff;
-}
-
-.colitis:after{
-    content:'Ulcerative Colitis.';
-}
-.colitis:hover:after{
-    content:'Click to learn more';
-}
-
-.crohns:after{
-    content:'Crohns Disease';
-}
-.crohns:hover:after{
-    content:'Click to learn more';
-}
-
-h1 {
-    font-size: 35px;
-    color: #c1c1c1;
-    padding: 10px 0;
-    margin: 0 -5px;
-    padding-left: 12%;
-    padding-right: 12%;
-    padding-top: 8%;
-    padding-bottom: 8%;
-    text-align: center;
-}
-
-h2 {
-    font-weight: bold;
-    background-color: #696969;
-    color: #ffffff;
-    padding: 10px 0;
-    padding-left: 7px;
-    margin: 0 0;
-    position: relative;
-    color: #fff;
-    text-decoration: none;
-    text-align: center;
-
-}
-
-h2:hover {
-  color: #ededed;
-}
-
-h2:before {
-  content: "";
-  position: absolute;
+.banner-image {
   width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #fff;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.7s ease-in-out 0s;
-  transition: all 0.7s ease-in-out 0s;
-}
-
-h2:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-}
-
-.heading {
-    text-align: center;
-    font-size: 25px;
-    color: #c1c1c1;
-    margin: 100px 0 50px 0;
-}
-
-.para {
-  background-color: #d9d9d9;
-  text-decoration: none;
-}
-
-.heading {
-    text-align: center;
-    font-size: 25px;
-    color: #fff;
-    margin: 50px 0 50px 0;
-}
-
-.heading:hover {
-  
+  position: relative;
+  top: -14px;
 }
 
 .nav {
-    color: #c1c1c1;
-    list-style: none;
-    text-align: right;
-    padding: 5px 5px 5px 5px;
-    margin-top: 25px;
-    text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: right;
+  text-decoration: none;
 }
 
 .nav > li {
   display: inline-block;
-  padding: 0 25px 0 25px;
-  font-size: 12px;
+  list-style: none;
+  padding-left: 8px;
+  padding-right: 8px;
+  position: relative;
+  left: 30px;
 }
 
 .nav > li > a {
-    text-decoration: none;
-    color: #c1c1c1;
+  text-decoration: none;
+  color: #8e8e8e;
 }
 
-.nav > li > a:hover {
-    color: #6a6a6a;
-    position: relative;
+.signature {
+  position: relative;
+  left: 15px;
+  top: -4px;
 }
 
-.nav > li > a:before {
-  content: "";
+
+.navbar-gradient {
+  background: linear-gradient(180deg, white, #c1c1c1);
   position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
   left: 0;
-  background-color: #6a6a6a;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.2s ease-in-out 0s;
-  transition: all 0.2s ease-in-out 0s;
+  top: 12px;
+  z-index: -1;
 }
 
-.nav > li > a:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
+/*======================== HOME BUTTON START ===========================*/
+
+.homebutton {
+  position: relative;
+  left: -13px;
+  top: -6px;
 }
 
-/*  */
-
-p {
-    padding: 10px 0;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 0 0;
-    margin-bottom: 25px;
-    text-align: center;
+.homebutton img:last-child{
+  display:none;
 }
+
+.homebutton:hover img:first-child{
+    display:none;
+}
+.homebutton:hover img:last-child{
+    display:inline-block;
+}
+
+
+
+/*======================== HOME BUTTON END ===========================*/
+
+
+/*======================== BIOGRAPHY BUTTON START ===========================*/
+
+.biobutton {
+  position: relative;
+  left: -13px;
+  top: -6px;
+}
+
+.biobutton img:last-child{
+  display:none;
+}
+
+.biobutton:hover img:first-child{
+    display:none;
+}
+.biobutton:hover img:last-child{
+    display: inline-block;
+}
+
+/*======================== BIOGRAPHY BUTTON END ===========================*/
+
+
+/*======================== RESUME BUTTON START ===========================*/
+
+.resumebutton {
+  position: relative;
+  left: -23px;
+  top: -6px;
+}
+
+.resumebutton img:last-child{
+  display:none;
+}
+
+.resumebutton:hover img:first-child{
+    display:none;
+}
+.resumebutton:hover img:last-child{
+    display: inline-block;
+}
+
+/*======================== RESUME BUTTON END ===========================*/
+
+
+
+/*======================== CODEPEN BUTTON START ===========================*/
+
+.codepenbutton {
+  position: relative;
+  left: -30px;
+  top: -6px;
+}
+.codepenbutton img:last-child{
+  display:none;
+}
+
+.codepenbutton:hover img:first-child{
+    display:none;
+}
+.codepenbutton:hover img:last-child{
+    display: inline-block;
+}
+
+/*======================== CODEPEN BUTTON END ===========================*/
+
+
+
+/*======================== GALLERY BUTTON ===========================*/
+
+.gallerybutton {
+  position: relative;
+  left: -35px;
+  top: -6px;
+}
+.gallerybutton img:last-child{
+  display:none;
+}
+
+.gallerybutton:hover img:first-child{
+    display:none;
+}
+.gallerybutton:hover img:last-child{
+    display: inline-block;
+}
+
+/*======================== GALLERY BUTTON END ===========================*/
+
+
+
+/*======================== CONTACT BUTTON START ===========================*/
+
+.contactbutton {
+  position: relative;
+  left: -40px;
+  top: -6px;
+}
+.contactbutton img:last-child{
+  display:none;
+}
+
+.contactbutton:hover img:first-child{
+    display:none;
+}
+.contactbutton:hover img:last-child{
+    display: inline-block;
+}
+
+/*======================== CONTACT BUTTON END ===========================*/
+
+
+/*======================== MEDIA QUERY START ===========================*/
+
+@meida screen 
