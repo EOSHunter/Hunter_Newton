@@ -37,20 +37,6 @@ a:hover {
     color: #799fff;
 }
 
-.colitis:after{
-    content:'Ulcerative Colitis.';
-}
-.colitis:hover:after{
-    content:'Click to learn more';
-}
-
-.crohns:after{
-    content:'Crohns Disease';
-}
-.crohns:hover:after{
-    content:'Click to learn more';
-}
-
 h1 {
     font-size: 35px;
     color: #c1c1c1;
@@ -102,29 +88,6 @@ h2:hover:before {
   transform: scaleX(1);
 }
 
-.heading {
-    text-align: center;
-    font-size: 25px;
-    color: #c1c1c1;
-    margin: 100px 0 50px 0;
-}
-
-.para {
-  background-color: #d9d9d9;
-  text-decoration: none;
-}
-
-.heading {
-    text-align: center;
-    font-size: 25px;
-    color: #fff;
-    margin: 50px 0 50px 0;
-}
-
-.heading:hover {
-  
-}
-
 .nav {
     color: #c1c1c1;
     list-style: none;
@@ -171,7 +134,9 @@ h2:hover:before {
   transform: scaleX(1);
 }
 
-/*  */
+.selected {
+  color: #6a6a6a;
+}
 
 p {
     padding: 10px 0;

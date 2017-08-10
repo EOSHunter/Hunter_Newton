@@ -63,7 +63,9 @@ h3:hover {
 
 }
 
-.nav a:hover {
+.nav a:hover,
+.nav a.selected {
     color: #6a6a6a;
     position: relative;
+
 }
