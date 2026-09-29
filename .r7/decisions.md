@@ -1,0 +1,4 @@
+# Durable implementation choices
+
+- **2017 — Independent exercise directories.** The repository places week-based work under `DailyChallenges/`, JavaScript exercises under `DailyChallenges/JavaScriptChallenges/`, and other challenges under `WeeklyChallenges/`. Individual HTML pages link to their own nearby assets. This is a collection of exercises, with no checked root application entry point. Evidence: current tree and the July–August commits listed in `changes/`.
+- **2017-08-10 — Browser form exercise.** `DailyChallenges/DailyChallenges/Week8/Thursday/form.html` collects name, email, phone, URL, and comment fields and calls jQuery Validate on `#commentForm`. The form's action is `#`; the repository does not establish a submission backend. Evidence: `8213ce45c6ce6a36e9142e60432e540fcf5c0109` and `form.html`.
